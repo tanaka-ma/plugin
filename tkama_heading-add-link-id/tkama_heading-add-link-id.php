@@ -12,7 +12,7 @@ License: GPL2
 
 if ( !defined( 'ABSPATH' ) ) exit;
 
-if (!class_exists('tanakama_anchor_link_id')):
+if (!class_exists('tanakama_add_heading_id')):
 
 class tanakama_add_heading_id {
 	

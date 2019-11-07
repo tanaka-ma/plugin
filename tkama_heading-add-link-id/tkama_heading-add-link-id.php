@@ -2,9 +2,9 @@
 
 /*
 Plugin Name: tkama_heading-add-link-id
-Plugin URI: https://tanakama.jp
+Plugin URI: https://tanakama.jp/wordpress/plugin/heading-add-link-id.html
 Description: 見出しにページ内リンク用のidを追加するプラグイン
-Version: 1.0.0
+Version: 1.0.1
 Author:tanakama
 Author URI: https://tanakama.jp
 License: GPL2

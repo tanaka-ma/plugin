@@ -47,12 +47,13 @@ class tanakama_add_heading_id {
 			$matches_id_array[] = $value1[1];
 				
 		}
-
-
-		if(!$i = max($matches_id_array)){
-			$i = 0;
-		}
 		
+				if ($matches_id_array){
+					$i = max($matches_id_array);
+				} else {
+					$i = 0;
+				}
+
 		
 		foreach( $matches as $element ){
 				

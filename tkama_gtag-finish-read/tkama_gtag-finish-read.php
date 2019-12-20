@@ -44,7 +44,7 @@ class tkama_gtag_finish_read {
 			
 		$gtag = <<<EOM
 <script>
-(function(){gtag("event",location.href,{event_category:"読了",event_label:"読了数",non_interaction:true,value:"0"});var c=document.getElementById("read-end");var b=c.getBoundingClientRect();var a=b.y;var e;function d(){if(!window.flag){if(e){return}e=setTimeout(function(){e=0;var i=document.documentElement||document.body.parentNode||document.body;var g=i.clientHeight;var h=window.pageYOffset||document.documentElement.scrollTop;var f=g+h;if(f>a){gtag("event",location.href,{event_category:"読了",event_label:"読了数",non_interaction:true,value:"1"});window.flag=true}else{}},500)}}window.addEventListener("scroll",d,false)}());
+(function(){gtag("event",location.href,{event_category:"読了",event_label:"読了数",non_interaction:true,value:"0"});var c=document.getElementById("read-end");var b=c.getBoundingClientRect();var a=b.y;var e;function d(){if(!window.flag){if(e){return}e=setTimeout(function(){e=0;var i=document.documentElement||document.body.parentNode||document.body;var g=i.clientHeight;var h=window.pageYOffset||document.documentElement.scrollTop;var f=g+h;if(f>a){gtag("event",location.href,{event_category:"読了",event_label:"読了数",non_interaction:true,value:"1"});window.flag=true}else{}},1000)}}window.addEventListener("scroll",d,false)}());
 </script>
 EOM;
 
